@@ -1,0 +1,49 @@
+/* work.css */
+
+article {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 16px rgba(0,0,0,0.5);
+	padding: 40px 0;
+	color: #000000;
+	margin-bottom: 40px;
+}
+
+article.firstWork {
+	margin-top: 200px;
+}
+
+article section {
+	width: 80%;
+	margin: auto;
+}
+
+article section h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 36px;
+}
+
+article section span {
+	display: block;
+	color: #9b9b9b;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+article section p {
+	font-size: 18px;
+	line-height: 1;
+}
+
+article section a {
+	border: 5px solid #000000;
+	width: 200px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+

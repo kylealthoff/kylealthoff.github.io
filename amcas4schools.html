@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/work-page.css">
+  <link rel="stylesheet" type="text/css" href="css/a4s.css">
+</head>
+
+<body class="workPage">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+    <a href="index.html"><img src="img/portfolio-logo.svg" alt="Kyle Althoff" class="portfolioLogo"></a>
+    <ul class="mainNav">
+      <li class="active"><a href="work.html">Work</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+
+  <div class="paginationContainer">
+    <a href="ioi.html" class="first">Previous</a>
+  </div>
+
+  <main>
+    <aside>
+      <section>
+        <p class="projectAttribute">Year</p>
+        <p>2018</p>
+      </section>
+
+      <section>
+        <p class="projectAttribute">Scope</p>
+        <p>End to End Application</p>
+      </section>
+
+      <section>
+        <p class="projectAttribute">Role</p>
+        <p>UX Designer</p>
+      </section>
+      
+      <section>
+        <p class="projectAttribute">Company</p>
+        <p>Association of American Medical Colleges (AAMC)</p>
+      </section>
+
+    </aside>
+
+    <article>
+      
+      <header>American Medical College Application Service / AMCAS 4 Schools </header>
+      
+      <section>
+        <h2>Brief</h2>
+        <p>AMCAS 4 Schools is a new initiative to give Medical Schools greater insight into their student data. This is part of an overhaul of the old platform and this application is one facet of that product strategy. Creating this new application would give the AMCAS team a new revenue stream that was previously not available.</p>
+        <p>The old platform is out of date and had not been updated since the early 2000s. The platform was used to allow Medical School Deans & Administrators to view reports on their data and to see all student applications. This application will improve upon those reports and allow users to view their data in a dashboard. Users will be able to gleam greater insights through data visualization as well. This solution will not replace the current reports completely but will allow a new channel for those reports to be added [to this application] and updated when the time comes.</p>
+        <p>AMCAS is a service within AAMC to allow potential medical students to apply to medical schools. They contain multiple products for the application process that aid Students and Medical School Administrators. Currently, all US MD medical schools with the exception of those from Texas and some in California, are part of the AAMC family and utilize the AMCAS services to manage their student applications. This allows for standardization of application forms and processes to lessen the burden for potential students and medical schools.</p>
+      </section> 
+
+      <section>
+        <h2>My Role</h2>
+        <p>In this role, I was the sole UX designer for the entire application. I worked closely with the Product Owners, Business Analyst, Project Manager, and Developers. We held weekly meetings to present designs promised from last week and to discuss any new issues or designs needed for the upcoming week. Besides the weekly meeting I was in consistent collaboration with the team. UX was brought in during the initial requirements phase and we started working on the designs along side requirements gathering in an agile life cycle.</p>
+      </section>
+
+      <section>
+        <h2>New Global Navigation</h2>
+        <p>For this new application, we had the chance to update and enhance components and patterns. The one component which was not holding up well over time was the Global Navigation. The old Global Navigation was designed with only web in mind and not for products/applications. The navigation did not scale well for large applications.</p>
+        <p>A major problem with the old design was there was limited space and some applications had many links crowding the navigation. This was difficult to work around as there were other elements in the navigation such as account/login, and the page title.</p>
+
+        <img class ="adjust-img" src="img/a4s/old-nav.png">
+        <span class="img-desc">Old Navigation</span>
+
+        <p>To fix this issue I spent time coming up with a new solution for the navigation. The new solution presented was completely vertical and placed on the left side. This vertical navigation allowed for many links to be displayed easily without being cluttered or taking up space that could be dedicated to the main content.</p>
+
+        <img class="adjust-img" src="img/a4s/new-nav.png">
+        <span class="img-desc">New Navigation</span>
+
+        <p>Along with the new vertical navigation there is a horizontal page navigation which includes the login and account info. The horizontal page navigation is made to be transparent so that it does not over shadow the main content which is the most important part.</p>
+      </section>
+
+      <section>
+        <h2>Tile Card System</h2>
+        <p>Dashboards were a new concept that hadn’t been implemented before into any AMCAS or AAMC products. Since there were no other implementations there came challenges when designing the dashboard. Ultimately, I decided to implement it using tiles. Tiles would allow flexibility in the future for any new dashboard configurations. As one idea came up to allow users to configure their own dashboards. So to accommodate that the Tile Card System was created.</p>
+
+        <img class="a4s-img-tiles" src="img/a4s/tiles.png">
+
+        <p>This system is based on a 3 column grid but can be expanded to a 4 column grid. Anything larger or smaller than 3 or 4 columns would not be easily readable by the user. While this system is scalable to smaller sizes such as in mobile it would not be beneficial to the user to see the tiles in such a small screen especially since some of the tiles can be quite large and data visualization does not lend itself to small screens too well.</p>
+
+        <img class="a4s-img-grids" src="img/a4s/grids.png"> 
+      </section>
+
+      <section>
+        <h2>Home Page / New Notifications</h2>
+        <p>After discussion, it was not practical to land the user on the dashboard right away as some users may not have access to certain reports such as the dashboard. To come up with a solution for this problem, I created a home page. This home page will be useful to give the user information coming up. There is a notification system in the home page which can be updated to give information to the user.</p>
+
+        <img class="adjust-img" src="img/a4s/home.png">
+
+        <p>There was a need for data visualization in the home page to show off certain areas of the data that were of interest to the user. So to accommodate that requirement I designed the notifications to include different types including one that allows the user to see an up to date statistic with visualization if necessary. This would allow the user to see relevant data when they need it and not clutter the home page with static data that may or may not be useful. It could be configured to be simple or more complex depending on development efforts.</p>
+      </section>
+
+      <section>
+        <h2>Drill Down Views</h2>
+        <p>The first report users would most likely see and use would be the Dashboard. This is meant to be a high level overview of all aspects important to medical schools which in the future can be configurable. But for MVP we decided to keep this static. To identify the most important data points we sent out a survey to medical schools to understand their data needs.</p>
+
+        <img class="adjust-img-drillDownViews" src="img/a4s/drill-down-views.png">
+
+        <p>The most important data points are displayed in the tiles. The tiles can be clicked on to view more details about the data point. This then will take the user to the next level of drill down to show further details about the data point. Many of the data points on the first level of the dashboard can be broken down further. The first level is only shown counts but the second level in the drill down shows data visualization and further breaks down the data.</p>
+        <p>Initially the users are only concerned with their numbers and if they are improving or not. If a user notices a trend, they can then view more information by clicking into the tile to view that category of data to understand more.</p>
+      </section>
+
+      <section>
+        <h2>Showing Data Together (Data Views)</h2>
+        <p>Another feature which allows greater insight for users is to allow them to compare their data against the entire pool of medical school applicants at the national level. This can give them greater insight into how they are doing compared to the average.</p>
+        <p>This is handled by the view dropdown at the top right corner of the screen which is a multi select. This allows the user to select what they want to show in the data set. This selection is then persisted throughout the entire application.</p>
+
+        <img class="adjust-img" src="img/a4s/school-data.png">
+        <span class="img-desc">Showing only the Schools data</span>
+
+        <img class="adjust-img" src="img/a4s/national-school-data.png">
+        <span class="img-desc">Showing both the Schools data and National data</span>
+      </section>
+
+      <section>
+        <h2>Map</h2>
+        <p>Giving the users many different ways to view data was vital to making this an application users could rely on. Allowing users to view their data in a geographic visualization gave them greater insight into where their students were coming from. This map shows data down the county level. When viewing the county data further data points show up in the tiles below the map.</p>
+
+        <img class="adjust-img" src="img/a4s/map.png">
+      </section>
+
+      <section>
+        <h2>Different Views of Same Data</h2>
+        <p>The great thing about data visualization is in that viewing the data in different presentations, insights that were not seen before become apparent. For a couple of the reports, I designed them to be viewable in multiple different formats. This was only possible in the reports that did not have the option for data to be compared to the national level. Those reports able to have data represented multiple ways were only static reports and not meant to be used for comparison.</p>
+        <img class="adjust-img-3views" src="img/a4s/3views.png">
+      </section>
+
+      <section>
+        <h2>Filters & Filter Tags</h2>
+        <p>There are a lot of filters in this application as every data point can be filtered upon. Filtering is an important part of analyzing the data. After sending out a survey to understand what users would want to filter on, we were able to come up with a list to start. Implementation would be difficult to accomplish if all filters were to be included. So based on the survey we were able to identify the top 5 that would be implemented first.</p>
+        <p>The filter tags that appear after adding a filter were a component already established in past applications. This was reused to save time and create consistency.</p>
+
+        <img src="img/a4s/filter-tags.png">
+      </section>
+
+      <section>
+        <h2>Conclusion</h2>
+        <p>This project is more a proof of concept than a full fledged product. There is still a lot of work to do on this product. Many of the designs and feature were left out to accommodate for MVP. Throughout the project we showed the designs in a clickable prototype to users and received good feedback on the direction. Starting from scratch and beginning in the initial stages of product development was a great learning experience though not without a steep learning curve. The product design had been approved and a working product had been developed for MVP as of September 2018.</p>
+      </section>
+
+    </article>
+
+  </main>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

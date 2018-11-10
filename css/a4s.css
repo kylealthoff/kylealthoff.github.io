@@ -1,0 +1,19 @@
+/* a4s.css */
+
+.workPage > main > article > header {
+	background-color: rgba(98,40,146,0.8);
+}
+
+.a4s-img-tiles, .a4s-img-grids {
+	margin: auto;
+	display: table;
+	margin-bottom: 30px;
+}
+
+.adjust-img-drillDownViews {
+	margin-left: -46px;
+}
+
+.adjust-img-3views {
+	margin-left: -43px;
+}

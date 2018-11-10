@@ -1,0 +1,59 @@
+/* contact.css */
+
+.contactInfo {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.contactInfo li {
+	width: inherit;
+	height: 150px;
+	font-size: 64px;
+	background-color: #ffffff;
+	list-style-type: none;
+	margin: 0;
+	color: #000000;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 150px;
+	display: block;
+	box-shadow: 0px 2px 16px rgba(0,0,0,0.5);
+}
+
+.contactInfo li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.contactInfo li i {
+	margin-right: 40px;
+}
+
+.contactInfo li i.fa-envelope {
+	font-size: 56px;
+}
+
+.contactInfo li i.fa-file-download {
+	font-size: 74.66px;
+}
+
+.contactInfo li .contactContainer {
+	width: 419px;
+	text-align: left;
+	height: inherit;
+	margin: auto;
+}
+
+.contactInfo li:hover{
+	background-color: #1f1f1f;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.contactInfo li:hover i {
+	color: #ffffff;
+}
+

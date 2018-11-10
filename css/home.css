@@ -1,0 +1,20 @@
+/* home.css */
+
+.introText {
+    float: right;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.introText h1 {
+    font-size: 120px;
+    margin: 0;
+    font-family: 'Bitter-Bold';
+    text-align: right;
+}
+
+.introText p {
+    float: right;
+    font-size: 24px;
+}
+
