@@ -1,20 +1,23 @@
 /* home.css */
 
 .introText {
-    float: right;
-    margin-right: 50px;
-    margin-top: 200px;
+    margin-left: 50px;
+    margin-top: 70px;
 }
 
 .introText h1 {
     font-size: 90px;
     margin: 0;
     font-family: 'Bitter-Bold';
-    text-align: right;
+    line-height: 1;
 }
 
 .introText p {
-    float: right;
+
     font-size: 24px;
 }
 
+.portfolioLogo {
+    margin-left: 50px;
+    margin-top: 160px;
+}
