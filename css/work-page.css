@@ -17,6 +17,10 @@
     font-size: 12px;
 }
 
+.workPage > header > .mainNav > li > a {
+	color: #fff !important;
+}
+
 .workPage > main > article {
 	box-shadow: 0px 2px 16px rgba(0,0,0,0.5);
 	width: calc(100% - 275px);
@@ -29,6 +33,7 @@
 	padding: 100px 60px;
 	font-size: 80px;
 	line-height: 1;
+	color: #fff;
 }
 
 
@@ -64,14 +69,15 @@
 }
 
 .workPage > main > aside > section > .projectAttribute {
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Bitter-Bold';
 	margin-bottom: 10px;
 }
 
 .workPage > main > aside > section > p {
-	font-size: 18px;
+	font-size: 14px;
 	margin: 0;
+	color: #9B9B9B;
 }
 
 .workPage > .paginationContainer {
