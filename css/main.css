@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #4A4A4A;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -114,7 +114,7 @@ textarea {
 
 
 body {
-    background-color: #FFFFFF;
+    background-color: #8D8C8D;
     min-width: 800px;
     font-family: 'Bitter-Regular';
     height: 100%;
@@ -162,7 +162,7 @@ main {
 }
 
 .mainNav li a {
-    color: #4A4A4A;
+    color: #fff;
     text-decoration: none;
     margin: 0;
     padding: 0;
