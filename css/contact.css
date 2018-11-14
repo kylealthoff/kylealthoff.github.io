@@ -1,26 +1,25 @@
 /* contact.css */
 
 .contactInfo {
-	width: 100%;
 	margin: 0;
-	padding: 0;
-	margin-top: 120px;
+	margin-left: 50px;
+	margin-top: 20px;
 	margin-bottom: 100px;
+	padding: 0;
+	display: inline-block;
 }
 
 .contactInfo li {
 	width: inherit;
-	height: 150px;
-	font-size: 64px;
-	background-color: #ffffff;
+	height: 40px;
+	font-size: 18px;
 	list-style-type: none;
 	margin: 0;
-	color: #000000;
-	margin-bottom: 30px;
+	color: #ffffff;
+	margin-bottom: 10px;
 	text-align: center;
-	line-height: 150px;
+	line-height: 18px;
 	display: block;
-	box-shadow: 0px 2px 16px rgba(0,0,0,0.5);
 }
 
 .contactInfo li a {
@@ -29,15 +28,15 @@
 }
 
 .contactInfo li i {
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 .contactInfo li i.fa-envelope {
-	font-size: 56px;
+	font-size: 18px;
 }
 
 .contactInfo li i.fa-file-download {
-	font-size: 74.66px;
+	font-size: 19px;
 }
 
 .contactInfo li .contactContainer {
@@ -45,15 +44,5 @@
 	text-align: left;
 	height: inherit;
 	margin: auto;
-}
-
-.contactInfo li:hover{
-	background-color: #1f1f1f;
-	color: #ffffff;
-	cursor: pointer;
-}
-
-.contactInfo li:hover i {
-	color: #ffffff;
 }
 
