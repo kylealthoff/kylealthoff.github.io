@@ -12,30 +12,45 @@ article.firstWork {
 	margin-top: 120px;
 }
 
-article section {
+article > section {
 	width: 80%;
 	margin: auto;
 }
 
-article section h2 {
+article > section > img {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+.workItemContainer {
+	width: calc(100% - 320px);
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+
+.workItem-header {
 	padding: 0;
 	margin: 0;
 	font-size: 30px;
 }
 
-article section span {
+.workItem-type {
 	display: block;
 	color: #9b9b9b;
 	font-size: 18px;
 	margin-top: 10px;
 }
 
-article section p {
+.workItem-desc {
 	font-size: 16px;
 	line-height: 1;
 }
 
-article section a {
+.workItem-action {
 	border: 5px solid #000000;
 	width: 200px;
 	height: 30px;
