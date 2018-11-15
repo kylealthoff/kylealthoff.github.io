@@ -115,7 +115,7 @@ textarea {
 
 body {
     background-color: #303944;
-    min-width: 1284px;
+    min-width: 800px;
     font-family: 'Bitter-Regular';
     height: 100%;
 }
@@ -129,7 +129,7 @@ body > header {
     width: 100%;
     position: absolute;
     top: 0;
-    min-width: 1284px;
+    min-width: 800px;
 }
 
 main {
