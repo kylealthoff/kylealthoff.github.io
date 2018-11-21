@@ -111,7 +111,7 @@
 
       <section>
         <h2>Show Something on the First Page</h2>
-        <p>The first page used to require the user to input all search criteria before showing any results. This was an outdated interaction and needed to be updated. Based on the student profiles we know that some students don’t know what they are looking for when coming to our site. To accommodate those students we decided to go with an approach that showed the users the first 5 results and let the users filter from there. This reduced the number of clicks to see necessary information.</p>
+        <p>The first page used to require the user to input all search criteria before showing any results. Based on the student profiles we know that some students don’t know what they are looking for when coming to our site. To accommodate those students we decided to go with an approach that showed the users the first 5 results and let the users filter from there.</p>
         <img class="adjust-img" src="img/rps/show-something-results.png">
       </section>
 
@@ -129,7 +129,7 @@
 
         <img class="rps-filters-img" src="img/rps/filters.png">
 
-        <p>The Filter component had been another component that was an existing pattern. But there were many things that had to be customized for this site.</p>
+        <p>The Filter component had been another component that was an existing pattern.</p>
 
         <div class="clear"></div>
 
@@ -141,14 +141,14 @@
       <section>
         <h2>All on One Page</h2>
         <p>Moving onto the Residency Program Detail view, our decision was to have all information for the Residency Program onto one page. This was also based on a previous pattern but we decided to make sure by tesing with users before we finalized the design.</p>
-        <p>There is a lot of information included within the Residency Program page and the previous site hid all the information within a tab view. But after discussion and some wireframing the decision was to include all information on one page as to allow the user to see everything. There should be no information hidden so that the user wouldn’t miss any detail.</p>
+        <p>There is a lot of information included within the Residency Program page and the previous site hid all the information within a tab view. But after discussion and some wireframing the decision was to include all information on one page as to allow the user to see everything.</p>
         <p>This proved to be the case when we presented the new design to users. Clicking was viewed as more annoying than scrolling to view content. With these findings it solidified the decision to keep it all on one page.</p>
         <img class="adjust-img" src="img/rps/all-on-one-page.png">
       </section>
 
       <section>
         <h2>Data Visualization</h2>
-        <p>The data included in the Residency Program pages is what sets this site apart from others. It aggregates many data sources into one place.</p>
+        <p>The data included in the Residency Program pages is what sets this site apart from other sites. It aggregates many data sources into one place.</p>
         <p>There was a standard library (highcharts.js) already used for all data visualization in AAMC applications. All visualizations had to be designed with this library in mind.</p>
         <p>Using data visualization allows the user to gain greater insights into the data than by text alone. Basic visualizations such as pie charts, line charts, and bar charts were utilized.</p>
 
@@ -162,24 +162,22 @@
 
         <img class="adjust-img" src="img/rps/prior-experience.png">
 
-        <p>The most difficult visualization to design was the Graduate Career Plans. This visualization shows what roles and careers Residents move onto after completing residency. First, the visualization was designed utilizing a tree map visualization. This visualation worked initially but after continuing discussions it was found that the tree map wouldn't work with how the data was structured. The new design utilized an infographic style, which ended up being less complex and easier to understand.</p>
+        <p>The most difficult visualization to design was the Graduate Career Plans. This visualization shows what roles and careers Residents move onto after completing residency. Graduate Career Plans was designed as an infographic style.</p>
 
-        <img class="adjust-img" src="img/rps/gcp-old.png">
-        <span class="img-desc">Old Design</span>
         <img class="adjust-img" src="img/rps/gcp-new.png">
-        <span class="img-desc">New Design</span>
+        <span class="img-desc">Graduate Career Plans</span>
       </section>
 
       <section>
         <h2>Data Quality & Privacy</h2>
-        <p>Data Quality and more important Data Privacy are big concerns of this service. The data needs to be up to date and correct. Also, the privacy of the individuals data we are using needs to be accounted for as well. Because of data privacy concerns some data was not shown. But to just hide this data is not good practice. To mitigate this, any section with data that was missing or couldn’t be shown because of too little data points was still shown but only with a note explaining why the data was missing. This made sure that the organization is being upfront with users and not hiding sections without reasonable explanation. Users rely on this data and we needed to be transparent otherwise it could frustrate users and cause misinformation to be spread.</p>
+        <p>Data Quality and more important Data Privacy are big concerns of this service. The data needs to be up to date and correct. Also, the privacy of the individuals data we are using needs to be accounted for as well. Because of data privacy concerns some data was not shown. Hiding the data was not good practice. Instead, any section with data that was missing or couldn’t be shown because of too little data points was still shown but only with a note explaining why the data was missing.</p>
 
         <img class="adjust-img-dataPrivacy" src="img/rps/data-privacy.png">
       </section>
 
       <section>
         <h2>Interactive Map View</h2>
-        <p>There are some students that are constrained to a certain area maybe because of a spouse or family. We know this from the Student Profiles. The interactive map was designed to aid these students but also allow any other students to be able to see all programs within a certain state on the map. This map visualization gives the users a new way to search for Residency Programs. This had the same functionality as the Search Results view but allowed users to visually see the programs.</p>
+        <p>There are some students that are constrained to a certain area maybe because of a spouse or family. We know this from the Student Profiles. The interactive map was designed to aid these students but also allow any other students to be able to see all programs within a certain state on the map.</p>
 
         <img class="adjust-img" src="img/rps/map-country.png">
         <span class="img-desc">Country View - User will click on a State to go to the State view</span>
