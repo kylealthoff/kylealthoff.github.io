@@ -4,6 +4,65 @@
 	background-color: rgba(0,61,121,0.8);
 }
 
+.rps-subheading {
+	font-size: 23px;
+}
+
+.rps-section-highlight {
+	font-size: 20px;
+}
+
+.rps-section-list {
+	padding: 0;
+}
+
+.rps-section-list-item {
+	height: 150px;
+	position: relative;
+	list-style-type: none;
+	border-bottom: 2px solid black;
+}
+
+.rps-section-list-item:first-child {
+	border-top: 2px solid black;
+}
+
+.rps-section-list-item::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+
+
+.rps-section-list-text {
+	width: 74%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.rps-section-list-img {
+	width: 22%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	margin-right: 10px;
+}
+
+.rps-img-process, .rps-img-userTesting, .rps-img-stakeholder, .rps-img-features, .rps-img-success, .rps-img-conclusion {
+	width: 25%;
+	display: block;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 18px;
+}
+
+.rps-section-process-p, .rps-section-userTesting-p, .rps-section-stakeholder-p, .rps-section-features-p {
+	display: block;
+}
+
 .rps-filters-img {
 	float: left;
 	margin-right: 40px;

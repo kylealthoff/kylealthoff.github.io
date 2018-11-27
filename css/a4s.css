@@ -17,3 +17,16 @@
 .adjust-img-3views {
 	margin-left: -43px;
 }
+
+.a4s-img-process, .a4s-img-strategy, .a4s-img-discovery, .a4s-img-success, .a4s-img-userTesting, .a4s-img-conclusion {
+	width: 25%;
+	display: block;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 18px;
+}
+
+.a4s-discovery-img-container {
+	width: 49%;
+	margin: auto;
+}

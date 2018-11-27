@@ -5,9 +5,57 @@
 }
 
 .ioi-ia-img, .ioi-sm-img {
-	float: right;
+	display: block;
+	margin: auto;
+}
+
+.ioi-img-ioiDocuments {
+	width: 78px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.ioi-img-emails {
+	width: 56px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
 	margin-left: 10px;
-	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.ioi-diving {
+	list-style-type: none;
+}
+
+.ioi-diving-li {
+	height: 100px;
+	position: relative;
+}
+
+.ioi-diving-li::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+
+.ioi-diving-li-text {
+	width: calc(100% - 95px);
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 22px;
+}
+
+.ioi-p-highlight {
+	font-size: 20px;
+}
+
+.ioi-section-list {
+	font-size: 22px;
 }
 
 .ioi-ms-img-container {
@@ -16,7 +64,15 @@
 }
 
 .ioi-prototype-img {
-	float: left;
-	margin-right: 10px;
+	display: block;
+	margin: auto;
 	margin-top: 15px;
+}
+
+.ioi-img-process, .ioi-img-testing, .ioi-img-conclusion {
+	width: 25%;
+	display: block;
+	vertical-align: top;
+	margin: auto;
+	margin-top: 18px;
 }

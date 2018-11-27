@@ -56,10 +56,28 @@
     
       <section>
         <h2>Problem</h2>
-        <p>The project prior to getting our hands on it, had failed 3 times prior with solutions that did not meet the needs. This was the last attempt to bring something of value to our users. The previous implementations tried utilizing existing technologies to bring together a solution (i.e. outlook, SharePoint) but failed by not taking into account how the Investment Analyst and Directors worked and did not identify what was most important to them in this process.</p>
+        <p>The project prior to getting our hands on it, had failed 3 times already with solutions that did not meet the needs. This was the last attempt to bring something of value to our users. The previous implementations tried utilizing existing technologies to bring together a solution (i.e. outlook, SharePoint) but failed by not taking into account how the Investment Analyst and Directors worked and did not identify what was most important to them in this process.</p>
         <p>Currently, the Analyst and Directors manually curated and managed everything through email. Using email for this process is tiresome and extremely prone to error. Emails get lost in the inbox thread and clients are not shown opportunities because an Analyst or Director forgot about an email that was lost in the slew of other messages.</p>
         <p>This is not helping the firm at all and is potentially losing the firm and clients millions of dollars. This process has to be managed in a better way. We were only given a few weeks to complete this project by.</p>
       </section> 
+
+      <section>
+        <h2>Process</h2>
+        <img src="img/svg/noun_agile.svg" class="ioi-img-process">
+        <p>We employed a Rapid Prototyping approach to design this application. The time frame we had to produce results was short so rapid prototyping allowed us to move quickly. We designed a simple prototype first and then iteratively improved and added or removed features as needed based on feedback.</p>
+      </section>     
+
+      <section>
+        <h2>User Advisory Group</h2>
+        <img src="img/svg/noun_group.svg" class="ioi-img-process">
+        <p>We assembled a user advisory group for this project. Feedback needed to be fast so we wanted to have users we could reach out to and get an immediate response from. The user advisory group consisted of...
+          <ul class="ioi-section-list">
+            <li>1 Senior Investment Director</li>
+            <li>3 Investment Directors</li>
+            <li>2 Investment Analysts</li>
+          </ul>
+        </p>
+      </section>       
 
       <section>
         <h2>What is an IOI?</h2>
@@ -70,26 +88,39 @@
         <h2>Diving into IOIs</h2>
         <p>The first step we took was to understand what IOIs look like and how they are managed in the organization. The IOI process is almost completely handled through email and sending along a spreadsheet with relevant information. The rest of it is managed with bulletin like pages on a SharePoint site.</p>
         <p>Initially, we conducted a discover phase and scoured the organization for artifacts of previous IOIs. We stumbled upon previous emails and SharePoint pages with information containing IOIs. This took a lot of time since we had no help or idea where to find these items but were able to pull together…
-          <ul>
-            <li>20 or so examples of IOIs</li>
-            <li>50 or so emails of individuals going back and forth about the IOI for a different funds.</li>
+          <ul class="ioi-diving">
+            <li class="ioi-diving-li">
+              <img src="img/svg/noun_Document.svg" class="ioi-img-ioiDocuments">
+              <div class="ioi-diving-li-text">~20 examples of IOIs</div>
+            </li>
+            <li class="ioi-diving-li">
+              <img src="img/svg/noun_Email.svg" class="ioi-img-emails">
+              <div class="ioi-diving-li-text">~50 emails of IOI transactions</div>
+            </li>
           </ul>
         </p>
       </section>
 
       <section>
+        <h2>Success Metric</h2>
+        <img src="img/svg/noun_time-is-money.svg" class="ioi-img-process">
+        <p>After analyzing all research from the discovery phase, we decided along with the stakeholders that the best success metric was <strong class="ioi-p-highlight">Time to Answer</strong>.</p> 
+        <p>Time to Answer is a metric determined by how long it takes to receive an answer from a client on an IOI. The time frame starts when the client is sent the IOI and is completed when the client makes a decision. We aimed to reduce the Time to Answer from the previous process.</p>
+        <p>Based on data gathered from previous emails, Time to Answer was <strong>~ 3 weeks</strong> on average.</p>
+      </section>  
+
+      <section>
         <h2>Information Architecture</h2>
-        <img class="ioi-ia-img" src="img/ioi/information-architecture.png">
         <p>After looking through these documents we started to get a good idea of what the process was and the pain points within this process. The next step was to figure out how to organize all the information. From our discovery phase we had found all the necessary data that would be needed within an IOI. To organize the information we chose to do a Card Sorting activity and came up with groups of data.</p>
+        <img class="ioi-ia-img" src="img/ioi/information-architecture.png">
       </section>
 
       <div class="clear"></div>
 
       <section>
         <h2>Site Map</h2>
+        <p>With our data grouped in way that made the most sense, we took our groups along with the information found in the discovery phase and determined what the structure of the application should be. We created a Site Map to organize the content and pages.</p>
         <img class="ioi-sm-img" src="img/ioi/site-map.png">
-        <p>With our data grouped in way that made the most sense, we took our groups along with the information found in the discovery phase and determined what the structure of the application should be.</p>
-        <p>We created a Site Map to organize the content and pages.</p>
       </section>
 
       <div class="clear"></div>
@@ -106,7 +137,7 @@
 
       <section>
         <h2>Mockups & Specs</h2>
-        <p>After getting the wireframes to a point where we felt confident that we covered all scenarios, we designed high fidelity mockups with specs. Our approach was to create mockups of a few pages which covered all patterns and components as to not duplicate efforts. Then we would design the other pages as we progressed in the prototyping phase. We did this so it would be easier on us when creating the prototype and allowed us to collaboratively work to develop the final presentation.</p>
+        <p>After getting the wireframes to a point where we felt confident that we covered all scenarios, we designed high fidelity mockups with specs. Our approach was to create mockups of a few pages which covered all patterns and components as to not duplicate efforts. Then we would design the other pages as we progressed through the project.</p>
         <div class="ioi-ms-img-container">
           <img src="img/ioi/mockup1.png">
           <img src="img/ioi/mockup2.png">
@@ -115,17 +146,30 @@
 
       <section>
         <h2>Prototype</h2>
-        <img class="ioi-prototype-img" src="img/ioi/prototype.png">
         <p>Once the mockups and specs were completed we started working on the prototype. The prototype was developed using HTML, CSS, SASS, Javascript, Angular, and Gulp.</p>
+        <img class="ioi-prototype-img" src="img/ioi/prototype.png">
       </section>
 
       <div class="clear"></div>
 
       <section>
+        <h2>User Testing</h2>
+        <img class="ioi-img-testing" src="img/svg/noun_Stakeholder.svg">
+        <p>After developing the initial prototype, we reached out to the User Advisory Group to get feedback on our prototype. The user testing sessions mostly were in a focus group format. We would reach out to the group and whoever would show up was who we used to test our prototype. Sometimes there would be only one participant in which we would just treat it as a regular user test.</p>
+      </section>
+
+      <section>
+        <h2>Rapid Prototyping</h2>
+        <img class="ioi-img-testing" src="img/svg/noun_prototype.svg">
+        <p>After conducting the first focus group session, we took the feedback and adjusted our design and then presented the new design to the User Advisory Group. We continued to move in this process until we had come to a point where we were satsified with the final product and the users were also content with what we have designed. During the subsequent iterations we mostly went from wireframing straight to updating the prototype. We wanted to move fast and have mininmal lag between iterations.</p>
+      </section>
+
+      <section>
         <h2>Conclusion</h2>
-        <p>The prototype proved to be extremely useful in gaining stakeholder approval. This was a tough project without any guidance but eventually it all came together with a little elbow grease. With the short deadline we were able to come together and create something that gave the users exactly what they needed.</p>
-        <p>This solution is much better than the current one and has reduced errors and streamlined communication between all parties involved in the IOI process. Essentially saving the company lost money from missed opportunities and saving employee time from being wasted with unnecessary back and forth emails.</p>
-        <p>Currently, the application is in usse by Investment Analyst and Directors at Cambridge Associates as of March 2017.</p>
+        <img class="ioi-img-conclusion" src="img/svg/noun_conclusion-ioi-2.svg">
+        <p>This was a tough project without any guidance but eventually it all came together. With the short deadline we were able to create something that gave the users exactly what they needed.</p>
+        <p>This solution is much better than the current one and has reduced errors and streamlined communication between all parties involved in the IOI process. Saving the company lost money from missed opportunities and saving employee time from being wasted with unnecessary back and forth emails.</p>
+        <p>Currently, the application is in use by Investment Analyst and Directors at Cambridge Associates as of Early 2017. We were able to reduce the Time to Answer to <strong>~ 2.2 weeks</strong> on average. </p>
       </section>
 
     </article>
