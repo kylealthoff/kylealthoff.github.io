@@ -1,6 +1,6 @@
 /* contact.css */
 
-.contactInfo {
+.contactInfoList {
 	margin: 0;
 	margin-left: 50px;
 	margin-top: 20px;
@@ -10,7 +10,7 @@
 	width: 150px;
 }
 
-.contactInfo > li {
+.contactInfoList > li {
 	width: inherit;
 	height: 40px;
 	font-size: 18px;
@@ -23,26 +23,28 @@
 	display: block;
 }
 
-.contactInfo > li > a {
+.contactInfoList > li > a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.contactInfo > li > i {
-	margin-right: 20px;
-}
-
-.contactInfo > li > i.fa-envelope {
-	font-size: 18px;
-}
-
-.contactInfo > li > i.fa-file-download {
-	font-size: 19px;
-}
-
-.contactInfo > li > .contactContainer {
+.contactItem {
 	text-align: left;
 	height: inherit;
 	margin: auto;
 }
+
+.contactItem-icon {
+	margin-right: 20px;
+}
+
+.contactItem-icon.fa-envelope {
+	font-size: 18px;
+}
+
+.contactItem-icon.fa-file-download {
+	font-size: 19px;
+}
+
+
 
