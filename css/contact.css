@@ -10,7 +10,7 @@
 	width: 150px;
 }
 
-.contactInfo li {
+.contactInfo > li {
 	width: inherit;
 	height: 40px;
 	font-size: 18px;
@@ -23,25 +23,24 @@
 	display: block;
 }
 
-.contactInfo li a {
+.contactInfo > li > a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.contactInfo li i {
+.contactInfo > li > i {
 	margin-right: 20px;
 }
 
-.contactInfo li i.fa-envelope {
+.contactInfo > li > i.fa-envelope {
 	font-size: 18px;
 }
 
-.contactInfo li i.fa-file-download {
+.contactInfo > li > i.fa-file-download {
 	font-size: 19px;
 }
 
-.contactInfo li .contactContainer {
-	width: 419px;
+.contactInfo > li > .contactContainer {
 	text-align: left;
 	height: inherit;
 	margin: auto;
