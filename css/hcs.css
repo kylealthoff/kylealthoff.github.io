@@ -1,0 +1,22 @@
+/* rps.css */
+
+.workPage > main > article > header {
+	background-color: rgba(208,9,62,0.8);
+
+	D0093E
+}
+
+.hcs-notation {
+	word-break: break-all;
+	font-size: 14px;
+	margin-top: 100px;
+}
+
+.hcs-notation-link {
+	font-style: italic;
+}
+
+.hcs-img-flow {
+	width: 900px;
+	margin-left: -80px;
+}
