@@ -1,5 +1,7 @@
 /* home.css */
 
+
+
 .introText {
     margin-left: 50px;
     margin-top: 40px;
@@ -17,8 +19,3 @@
     font-size: 24px;
 }
 
-.portfolioLogo {
-    margin-left: 50px;
-    margin-top: 120px;
-    width: 150px;
-}

@@ -140,11 +140,20 @@ body > header {
 main {
     width: 100%;
     z-index: -1;
+    margin-top: 200px;
 }
 
 .clear {
     clear: both;
     width: 100%;
+}
+
+.portfolioLogo {
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    width: 150px;
 }
 
 
