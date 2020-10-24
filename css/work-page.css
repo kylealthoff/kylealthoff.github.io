@@ -4,10 +4,14 @@
 	margin-top: 100px;
 }
 
-header > .portfolioLogo {
+.workPage .portfolioLogo {
 	width: 150px;
 	margin-top: 20px;
-	margin-left:	20px;
+	margin-left: 20px;
+}
+
+.workPage > header > a {
+	display: inline-block;
 }
 
 .adjust-img {
