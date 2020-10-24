@@ -99,7 +99,12 @@ header > .portfolioLogo {
 	color: #000000;
 	text-decoration: none;
 	text-align: center;
-	background-color: #ffffff;
+}
+
+.workPage > .paginationContainer > a.disabled {
+	color: #e4e4e4;
+	border-color: #e4e4e4;
+	pointer-events: none;
 }
 
 .workPage > .paginationContainer > a.first {
