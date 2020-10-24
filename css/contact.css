@@ -2,12 +2,12 @@
 
 .contactInfoList {
 	margin: 0;
-	margin-left: 50px;
-	margin-top: 20px;
-	margin-bottom: 100px;
-	padding: 0;
-	display: inline-block;
-	width: 150px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    display: inline-block;
+    width: 150px;
+    margin-left: 230px
 }
 
 .contactInfoList > li {

@@ -1,14 +1,48 @@
 /* home.css */
 
+.homeMain {
+	margin-top: 50px;
+}
 
+.portfolioLogo {
+    vertical-align: top;
+    width: 100%;
+}
+
+.titleLocation {
+	font-size: 38px;
+    position: absolute;
+    top: 292px;
+    width: 202px;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+    font-weight: 100
+}
+
+.titleJob {
+	text-align: left;
+    color: white;
+    font-size: 91px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-left: 228px
+}
+
+.introWrapper {
+	width: 1043px;
+	margin: auto;
+
+}
 
 .introText {
-    margin-left: 50px;
     margin-top: 40px;
 }
 
 .introText h1 {
-    font-size: 90px;
+    font-size: 120px;
     margin: 0;
     font-family: 'Bitter-Bold';
     line-height: 1;

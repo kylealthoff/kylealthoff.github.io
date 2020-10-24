@@ -4,6 +4,12 @@
 	margin-top: 100px;
 }
 
+header > .portfolioLogo {
+	width: 150px;
+	margin-top: 20px;
+	margin-left:	20px;
+}
+
 .adjust-img {
 	margin-left: -54px;
 }

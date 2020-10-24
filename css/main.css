@@ -114,7 +114,7 @@ textarea {
 
 
 body {
-    background-color: #303944;
+    background-color: #212427;
     min-width: 800px;
     font-family: 'Bitter-Regular';
     height: 100%;
@@ -135,6 +135,7 @@ body > header {
     position: absolute;
     top: 0;
     min-width: 800px;
+    background-color: #212427;
 }
 
 main {
@@ -148,19 +149,10 @@ main {
     width: 100%;
 }
 
-.portfolioLogo {
-    vertical-align: top;
-    margin-top: 20px;
-    margin-left: 20px;
-    float: left;
-    width: 150px;
-}
-
-
 .mainNav {
     vertical-align: top;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-right: 50px;
     float: right;
 }
