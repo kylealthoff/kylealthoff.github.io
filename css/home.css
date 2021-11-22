@@ -4,15 +4,51 @@
 	margin-top: 50px;
 }
 
+.contactLine {
+    position: relative;
+    left: 231px;
+    width: 1px;
+    height: 104px;
+    border-left: 2px dashed #fff;
+}
+
+.jobLine {
+    position: absolute;
+    top: 170px;
+    right: 0;
+    width: 196px;
+    height: 1px;
+    border-top: 2px dashed #fff;
+}
+
+.locationLine {
+    position: absolute;
+    top: 380px;
+    left: 119px;
+    width: 68px;
+    height: 1px;
+    border-top: 2px dashed #fff;
+}
+
+.locationLineNew {
+    position: absolute;
+    top: 334px;
+    left: 33px;
+    width: 74px;
+    height: 1px;
+    border-top: 2px dashed #fff
+}
+
 .portfolioLogo {
     vertical-align: top;
     width: 100%;
+    opacity: 0.3;
 }
 
 .titleLocation {
 	font-size: 38px;
     position: absolute;
-    top: 292px;
+    top: 241px;
     width: 202px;
     margin: 0;
     text-align: right;
@@ -21,6 +57,9 @@
 }
 
 .titleJob {
+    position: absolute;
+    top: 61px;
+    right: 48px;
 	text-align: left;
     color: white;
     font-size: 91px;
@@ -34,6 +73,7 @@
 .introWrapper {
 	width: 1043px;
 	margin: auto;
+    position: relative;
 
 }
 
