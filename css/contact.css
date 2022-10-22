@@ -36,13 +36,19 @@
 	margin: auto;
 }
 
+.contactItem-icon-envelope {
+	margin-right: 16px;
+}
+
 .contactItem-icon {
 	margin-right: 20px;
 }
 
+
 .contactItem-icon.fa-envelope {
 	font-size: 18px;
 }
+
 
 .contactItem-icon.fa-file-download {
 	font-size: 19px;
